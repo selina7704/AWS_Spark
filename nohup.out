@@ -82,3 +82,4 @@ To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLeve
 [I 15:12:21.718 NotebookApp] Starting buffering for 57268328-af1e-47ae-84e8-26530f711a0b:ce203c0bf6bb478e9b06279429cc7bf1
 [I 15:12:23.883 NotebookApp] Starting buffering for 292d476f-215a-46e9-a464-ad9a56bbdcd8:575663137eae4d86b22b57ef5d7f1c76
 [I 15:14:28.265 NotebookApp] Saving file at /241210_02_SparkSQL_실행계획.ipynb
+[W 15:15:54.574 NotebookApp] Notebook 241210_02_SparkSQL_실행계획.ipynb is not trusted
