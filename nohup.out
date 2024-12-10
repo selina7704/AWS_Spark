@@ -1,0 +1,84 @@
+[I 14:45:45.143 NotebookApp] Serving notebooks from local directory: /home/lab05/src
+[I 14:45:45.143 NotebookApp] Jupyter Notebook 6.4.10 is running at:
+[I 14:45:45.143 NotebookApp] http://ip-172-31-2-110:8905/
+[I 14:45:45.143 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 14:45:48.012 NotebookApp] 404 GET /api/contents/src?type=directory&_=1733804571529 (175.118.53.87): No such file or directory: src
+[W 14:45:48.012 NotebookApp] No such file or directory: src
+[W 14:45:48.012 NotebookApp] 404 GET /api/contents/src?type=directory&_=1733804571529 (175.118.53.87) 0.650000ms referer=http://13.208.158.13:8905/tree/src
+[W 14:45:48.593 NotebookApp] 404 GET /api/kernels/e25fabe5-6453-4b32-8134-9a8a4615bc11/channels?session_id=8a4e8062a5b044d88e61230fcb719aac (218.38.167.157): Kernel does not exist: e25fabe5-6453-4b32-8134-9a8a4615bc11
+[W 14:45:48.613 NotebookApp] 404 GET /api/kernels/e25fabe5-6453-4b32-8134-9a8a4615bc11/channels?session_id=8a4e8062a5b044d88e61230fcb719aac (218.38.167.157) 21.890000ms referer=None
+[W 14:45:49.908 NotebookApp] 404 GET /api/contents/src?type=directory&_=1733804571530 (175.118.53.87): No such file or directory: src
+[W 14:45:49.908 NotebookApp] No such file or directory: src
+[W 14:45:49.909 NotebookApp] 404 GET /api/contents/src?type=directory&_=1733804571530 (175.118.53.87) 2.230000ms referer=http://13.208.158.13:8905/tree/src
+[W 14:45:58.923 NotebookApp] 404 GET /api/kernels/481fd840-4dbd-4561-bf52-8b453a85cf82/channels?session_id=2be9cfad10d9445b9cdaff8d704bf7c6 (114.203.150.38): Kernel does not exist: 481fd840-4dbd-4561-bf52-8b453a85cf82
+[W 14:45:58.924 NotebookApp] 404 GET /api/kernels/481fd840-4dbd-4561-bf52-8b453a85cf82/channels?session_id=2be9cfad10d9445b9cdaff8d704bf7c6 (114.203.150.38) 1.540000ms referer=None
+[W 14:45:59.719 NotebookApp] Notebook 241210_01_SparkSQL.ipynb is not trusted
+[I 14:46:00.299 NotebookApp] Kernel started: 292d476f-215a-46e9-a464-ad9a56bbdcd8, name: spark_start
+[W 14:46:05.606 NotebookApp] 404 GET /api/kernels/e25fabe5-6453-4b32-8134-9a8a4615bc11/channels?session_id=8a4e8062a5b044d88e61230fcb719aac (218.38.167.157): Kernel does not exist: e25fabe5-6453-4b32-8134-9a8a4615bc11
+[W 14:46:05.608 NotebookApp] 404 GET /api/kernels/e25fabe5-6453-4b32-8134-9a8a4615bc11/channels?session_id=8a4e8062a5b044d88e61230fcb719aac (218.38.167.157) 5.190000ms referer=None
+24/12/10 14:46:05 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+[I 14:46:20.341 NotebookApp] Starting buffering for 292d476f-215a-46e9-a464-ad9a56bbdcd8:575663137eae4d86b22b57ef5d7f1c76
+[I 14:46:22.973 NotebookApp] Kernel restarted: 292d476f-215a-46e9-a464-ad9a56bbdcd8
+[I 14:46:23.076 NotebookApp] Restoring connection for 292d476f-215a-46e9-a464-ad9a56bbdcd8:575663137eae4d86b22b57ef5d7f1c76
+[I 14:46:23.076 NotebookApp] Replaying 1 buffered messages
+24/12/10 14:46:28 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+[W 14:46:31.925 NotebookApp] 404 GET /api/kernels/481fd840-4dbd-4561-bf52-8b453a85cf82/channels?session_id=2be9cfad10d9445b9cdaff8d704bf7c6 (114.203.150.38): Kernel does not exist: 481fd840-4dbd-4561-bf52-8b453a85cf82
+[W 14:46:31.927 NotebookApp] 404 GET /api/kernels/481fd840-4dbd-4561-bf52-8b453a85cf82/channels?session_id=2be9cfad10d9445b9cdaff8d704bf7c6 (114.203.150.38) 3.310000ms referer=None
+[W 14:46:38.610 NotebookApp] 404 GET /api/kernels/e25fabe5-6453-4b32-8134-9a8a4615bc11/channels?session_id=8a4e8062a5b044d88e61230fcb719aac (218.38.167.157): Kernel does not exist: e25fabe5-6453-4b32-8134-9a8a4615bc11
+[W 14:46:38.610 NotebookApp] 404 GET /api/kernels/e25fabe5-6453-4b32-8134-9a8a4615bc11/channels?session_id=8a4e8062a5b044d88e61230fcb719aac (218.38.167.157) 2.280000ms referer=None
+[W 14:47:36.929 NotebookApp] 404 GET /api/kernels/481fd840-4dbd-4561-bf52-8b453a85cf82/channels?session_id=2be9cfad10d9445b9cdaff8d704bf7c6 (114.203.150.38): Kernel does not exist: 481fd840-4dbd-4561-bf52-8b453a85cf82
+[W 14:47:36.930 NotebookApp] 404 GET /api/kernels/481fd840-4dbd-4561-bf52-8b453a85cf82/channels?session_id=2be9cfad10d9445b9cdaff8d704bf7c6 (114.203.150.38) 2.480000ms referer=None
+[W 14:47:43.593 NotebookApp] 404 GET /api/kernels/e25fabe5-6453-4b32-8134-9a8a4615bc11/channels?session_id=8a4e8062a5b044d88e61230fcb719aac (218.38.167.157): Kernel does not exist: e25fabe5-6453-4b32-8134-9a8a4615bc11
+[W 14:47:43.594 NotebookApp] 404 GET /api/kernels/e25fabe5-6453-4b32-8134-9a8a4615bc11/channels?session_id=8a4e8062a5b044d88e61230fcb719aac (218.38.167.157) 1.780000ms referer=None
+[I 14:48:00.347 NotebookApp] Saving file at /241210_01_SparkSQL.ipynb
+[W 14:48:00.348 NotebookApp] Notebook 241210_01_SparkSQL.ipynb is not trusted
+[I 14:48:22.311 NotebookApp] Saving file at /241210_01_SparkSQL.ipynb
+[W 14:48:22.311 NotebookApp] Notebook 241210_01_SparkSQL.ipynb is not trusted
+[I 14:48:26.402 NotebookApp] Creating new notebook in 
+[I 14:48:28.245 NotebookApp] Kernel started: a92436d8-4d87-416c-9ffa-a0d26d45b812, name: spark_start
+[W 14:48:58.656 NotebookApp] Notebook 241206_03_DataFrameAPI.ipynb is not trusted
+[I 14:49:00.061 NotebookApp] Kernel started: 57268328-af1e-47ae-84e8-26530f711a0b, name: spark_start
+[I 14:49:59.512 NotebookApp] 302 GET / (114.203.150.38) 0.800000ms
+24/12/10 14:50:01 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+24/12/10 14:50:02 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+[I 14:50:28.266 NotebookApp] Saving file at /241210_02_SparkSQL_실행계획.ipynb
+[I 14:50:49.915 NotebookApp] Starting buffering for 292d476f-215a-46e9-a464-ad9a56bbdcd8:575663137eae4d86b22b57ef5d7f1c76
+[I 14:50:52.539 NotebookApp] Kernel restarted: 292d476f-215a-46e9-a464-ad9a56bbdcd8
+[I 14:50:52.617 NotebookApp] Restoring connection for 292d476f-215a-46e9-a464-ad9a56bbdcd8:575663137eae4d86b22b57ef5d7f1c76
+24/12/10 14:50:54 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+[Stage 0:>                                                          (0 + 1) / 2][Stage 1:=============================>                             (1 + 1) / 2]                                                                                [Stage 0:>                                                          (0 + 1) / 1]                                                                                [W 14:51:50.637 NotebookApp] Notebook 241210_02_SparkSQL_실행계획.ipynb is not trusted
+[I 14:52:00.352 NotebookApp] Saving file at /241210_01_SparkSQL.ipynb
+[Stage 29:==========================>                            (48 + 1) / 100][Stage 29:=====================================>                 (68 + 1) / 100][Stage 29:=================================================>     (90 + 1) / 100]                                                                                [Stage 0:>                                                          (0 + 1) / 1][Stage 0:===========================================================(1 + 0) / 1]                                                                                [I 14:54:00.328 NotebookApp] Saving file at /241210_01_SparkSQL.ipynb
+[I 14:54:27.198 NotebookApp] Saving file at /241210_01_SparkSQL.ipynb
+[I 14:54:29.086 NotebookApp] Saving file at /241210_02_SparkSQL_실행계획.ipynb
+[I 14:56:00.323 NotebookApp] Saving file at /241210_01_SparkSQL.ipynb
+[W 14:56:18.720 NotebookApp] Notebook 241210_02_SparkSQL_실행계획.ipynb is not trusted
+[I 14:58:01.090 NotebookApp] Saving file at /241210_01_SparkSQL.ipynb
+[I 14:58:28.268 NotebookApp] Saving file at /241210_02_SparkSQL_실행계획.ipynb
+[I 15:00:28.264 NotebookApp] Saving file at /241210_02_SparkSQL_실행계획.ipynb
+[I 15:02:28.263 NotebookApp] Saving file at /241210_02_SparkSQL_실행계획.ipynb
+[I 15:04:28.254 NotebookApp] Saving file at /241210_02_SparkSQL_실행계획.ipynb
+[I 15:06:28.263 NotebookApp] Saving file at /241210_02_SparkSQL_실행계획.ipynb
+[I 15:07:56.691 NotebookApp] Saving file at /241210_01_SparkSQL.ipynb
+[I 15:08:29.091 NotebookApp] Saving file at /241210_02_SparkSQL_실행계획.ipynb
+[W 15:08:54.121 NotebookApp] Notebook 241210_02_SparkSQL_실행계획.ipynb is not trusted
+[I 15:10:00.324 NotebookApp] Saving file at /241210_01_SparkSQL.ipynb
+[Stage 44:============================================>          (81 + 1) / 100]                                                                                [Stage 59:====================================================>  (96 + 1) / 100]                                                                                [W 15:11:10.015 NotebookApp] Notebook 241210_02_SparkSQL_실행계획.ipynb is not trusted
+[Stage 95:=======================>                               (84 + 1) / 200][Stage 95:===============================>                      (116 + 2) / 200][Stage 95:=========================================>            (153 + 1) / 200][Stage 95:==================================================>   (186 + 1) / 200]                                                                                [I 15:12:00.319 NotebookApp] Saving file at /241210_01_SparkSQL.ipynb
+[I 15:12:03.156 NotebookApp] Saving file at /241210_01_SparkSQL.ipynb
+[I 15:12:09.301 NotebookApp] Saving file at /241210_01_SparkSQL.ipynb
+[I 15:12:21.718 NotebookApp] Starting buffering for 57268328-af1e-47ae-84e8-26530f711a0b:ce203c0bf6bb478e9b06279429cc7bf1
+[I 15:12:23.883 NotebookApp] Starting buffering for 292d476f-215a-46e9-a464-ad9a56bbdcd8:575663137eae4d86b22b57ef5d7f1c76
+[I 15:14:28.265 NotebookApp] Saving file at /241210_02_SparkSQL_실행계획.ipynb
