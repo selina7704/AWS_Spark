@@ -1,0 +1,1 @@
+{"class":"org.apache.spark.ml.feature.OneHotEncoderModel","timestamp":1734685991083,"sparkVersion":"3.1.2","uid":"OneHotEncoder_8eb9f3a3653d","paramMap":{"outputCol":"OverTime_encoded","inputCol":"OverTime_index"},"defaultParamMap":{"outputCol":"OneHotEncoder_8eb9f3a3653d__output","handleInvalid":"error","dropLast":true}}
